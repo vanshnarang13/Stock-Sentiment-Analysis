@@ -98,22 +98,4 @@ Predicted buy/sell signals are merged with historical OHLC data. A rule-based tr
 | Total Trades | 1,034 | 994 |
 
 ---
-
-## How to Run
-
-```bash
-# Clone the repo
-git clone https://github.com/vanshnarang13/Stock-Sentiment-Analysis.git
-cd Stock-Sentiment-Analysis
-
-# Install dependencies
-pip install pandas numpy scikit-learn nltk textblob vaderSentiment yfinance matplotlib
-
-# Download NLTK data (first run only)
-python -c "import nltk; nltk.download('wordnet'); nltk.download('omw-1.4')"
-
-# Launch the notebook
-jupyter notebook StockSentimentAnalysis.ipynb
-```
-
-Both `apple_dataset.csv` and `tesla_dataset.csv` are included in the repo. Historical market data is fetched live from Yahoo Finance via `yfinance`.
+Historical market data is fetched live from Yahoo Finance via `yfinance`.
